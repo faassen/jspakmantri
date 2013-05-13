@@ -1,0 +1,17 @@
+{
+  "baseUrl": "js/",
+  "libs": {},
+
+  "deps": {
+    "src": "src/",
+    "root": "./",
+    "dest": "deps.js"
+  },
+
+  "build": {
+    "input": "js/app.js",
+    "dest": "dist/app.min.js",
+    "outputWrapper": "",
+    "exclude": [""]
+  }
+}
