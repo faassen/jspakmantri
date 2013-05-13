@@ -1,7 +1,7 @@
 goog.provide('core');
 
-(function($) {
-    core.foo = function() {
+(function($, module) {
+    module.foo = function() {
         return $.type("Foo!");
     };
-}(jQuery));
+}(jQuery, core));
